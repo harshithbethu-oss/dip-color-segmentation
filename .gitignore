@@ -1,0 +1,36 @@
+# Python and local virtual environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+.pytest_cache/
+**/.pytest_cache/
+
+# Local environment and secrets
+.env
+.env.*
+.env.local
+.env.development.local
+.env.production.local
+.streamlit/
+*.pem
+*.key
+*.crt
+*.p12
+*.log
+*.tmp
+
+# OS and editor metadata
+.DS_Store
+.vscode/
+.idea/
+
+# Generated project outputs
+experimental_results/
+.coverage
+htmlcov/
+dist/
+build/
